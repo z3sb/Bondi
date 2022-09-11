@@ -5,15 +5,60 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Bootstrap File Link -->
-  <link rel="stylesheet" href="css/bootstrap.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <!-- Font Awesome Link -->
   <script src="https://kit.fontawesome.com/1e6ed09e58.js" crossorigin="anonymous"></script>
   <!-- Google Fonts Link -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500&display=swap" rel="stylesheet"> 
+  <!-- CSS File -->
+  <link rel="stylesheet" href="css/bondi.css">
   <title>Bondi</title>
 </head>
 <body>
+  <nav class="navbar navbar-expand-lg">
+    <div class="container">
+      <a class="navbar-brand" href="#">
+        <img src="imgs/logo.png" alt="">
+      </a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#main" aria-controls="main" aria-expanded="false" aria-label="Toggle navigation">
+        <i class="fa-solid fa-bars text-light"></i>
+      </button>
+      <div class="collapse navbar-collapse" id="main">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3 active" aria-current="page" href="#">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#">Services</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#">Portfolio</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#">About</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link p-2 p-lg-3" href="#">Contact</a>
+          </li>
+        </ul>
+        <div class="search ps-3 pe-3 d-none d-lg-block">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </div>
+        <a href="#" class="btn main-btn rounded-pill">Login</a>
+      </div>
+    </div>
+  </nav>
+  <div class="landing d-flex justify-content-center align-items-center">
+    <div class="text-center text-light">
+      <h1>Taste The Creativity</h1>
+      <p class="fs-5 text-white-50 mb-5">We make awesome graphic and web design</p>
+      <a href="#" class="btn main-btn rounded-pill">Get Started</a>
+    </div>
+  </div>
+  <script src="js/jquery-3.6.1.min.js"></script>
+  <script src="js/popper.min.js"></script>
+  <script src="js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
