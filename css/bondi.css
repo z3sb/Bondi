@@ -120,3 +120,16 @@ body{
   transform: translateX(0);
 }
 /* End Our-work */
+/* Start Stuff */
+.stuff .desc{
+  max-width: 500px;
+}
+/* End Stuff */
+/* Start Our Team */
+.team{
+  background-color: var(--section-bg);
+}
+.team .box h4{
+  background-color: var(--green);
+}
+/* End Our Team */
