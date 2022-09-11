@@ -80,3 +80,43 @@ body{
   color: var(--yellow);
 }
 /* End Features */
+/* Start Our-work */
+.our-work{
+  background-color: var(--section-bg);
+}
+.our-work .list-unstyled li{
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  border-radius: 50px;
+  transition: 0.3s;
+}
+.our-work .list-unstyled li:not(.active):hover{
+  color: var(--red);
+}
+.our-work .list-unstyled li.active{
+  background-color: var(--red);
+  color: var(--yellow);
+}
+.our-work .box{
+  padding: 5px;
+  overflow: hidden;
+}
+.our-work .box::before{
+  content: attr(data-work);
+  background-color: rgb(51 209 204 / 76%);
+  position: absolute;
+  font-size: 1.5rem;
+  color: white;
+  font: bold;
+  width: calc(100% - 10px);
+  height: calc(100% - 10px);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 0.3s;
+  transform: translateX(calc(-100% - 5px));
+}
+.our-work .box:hover::before{
+  transform: translateX(0);
+}
+/* End Our-work */
