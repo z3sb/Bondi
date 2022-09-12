@@ -172,9 +172,6 @@ body{
 .footer .contact ul li{
   width: 40px;
   height: 40px;
-  display: flex;
-  align-items: center;
-  justify-content: center;
 }
 .footer .facebook{
   background-color: #1877f2;
